@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1576833882 source:/home/maksim/C/SHELL/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<malloc.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<fcntl.h>
+

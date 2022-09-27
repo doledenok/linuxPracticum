@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1575836718 source:/home/maksim/C/IPC/1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/ipc.h>
+	<sys/msg.h>
+	<sys/shm.h>
+

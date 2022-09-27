@@ -1,0 +1,17 @@
+c1 a11 a12 | c2 a21 a22 | c3 a31 a32 | c4 || c5 & c6 ; c7 a71 a72 && c8 a81 && < file1 c9 a91 a92 a93 >>file2 & c10 a101 a102 || c11 a111 a112 a113
+
+ls -a | /home/maksim/C/test/a.out
+
+<test1.txt ls -a | /home/maksim/C/test/a.out
+
+ls -a | ps -a
+
+ls -a -R -l -h | sort -r | wc
+
+>test2.txt <test1.txt ps -a | /home/maksim/C/test/a.out | wc
+
+ls -a -R -l -h | sort -r | wc || ps -a && ps -a ; ps ; ls && ls -a && ls -R || ps -a ; sleep 5 ; >test2.txt ls -a -R | /home/maksim/C/test/a.out | sort >test3.txt ; sort <test1.txt >> test2.txt ; wc test1.txt
+
+ls -a -R -l -h | sort -r | wc || ps -a && ps -a ; ps ; ls && ls -a && sleep 4 && ls -R || ps -a & sleep 5 ; >test2.txt ls -a -R | /home/maksim/C/test/a.out | sort >test3.txt & sort <test1.txt >> test2.txt ; wc test1.txt
+
+( ls && ( ls -a ) || ps -a ) || ps -a

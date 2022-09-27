@@ -1,0 +1,38 @@
+ 
+ 
+ 
+ 
+ . 
+ . 
+ . 
+ . 
+ . 
+ . . 
+ . . 
+ . . 
+ . . 
+ . . 
+. : 
+  5 6
+ a . o u t 
+ . / b i n : 
+ b i n 
+ . / b i n / D e b u g : 
+ D e b u g 
+ D e b u g 
+ m a i n . c 
+ m a i n . o 
+ . / o b j : 
+ o b j 
+ . / o b j / D e b u g : 
+ S H E L L 
+ S H E L L . c b p 
+ S H E L L . d e p e n d 
+ S H E L L . l a y o u t 
+ t e s t 1 . t x t 
+ t e s t 2 . t x t 
+ t e s t 3 . t x t 
+.out | sort >test3.txt ; sort <test1.txt >> test2.txt ; wc test1.txt
+ls -a -R -l -h | sort -r | wc || ps -a && ps -a ; ps ; ls && ls -a && sleep 4 && ls -R || ps -a & sleep 5 ; >test2.txt ls -a -R | /home/maksim/C/test/a.out | sort >test3.txt & sort <test1.txt >> test2.txt ; wc test1.txt
+<test1.txt ls -a | /home/maksim/C/test/a.out
+>test2.txt <test1.txt ps -a | /home/maksim/C/test/a.out | wc
